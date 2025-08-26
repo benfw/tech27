@@ -1,0 +1,481 @@
+filename,battery_id,error
+00839.csv,B0043,Insufficient discharge data points
+00843.csv,B0043,Insufficient discharge data points
+00845.csv,B0043,Insufficient discharge data points
+00847.csv,B0043,Insufficient discharge data points
+00849.csv,B0043,Insufficient discharge data points
+00852.csv,B0043,Insufficient discharge data points
+00854.csv,B0043,Insufficient discharge data points
+00856.csv,B0043,Insufficient discharge data points
+00858.csv,B0043,Insufficient discharge data points
+00860.csv,B0043,Insufficient discharge data points
+00864.csv,B0043,Insufficient discharge data points
+00866.csv,B0043,Insufficient discharge data points
+00868.csv,B0043,Insufficient discharge data points
+00870.csv,B0043,Insufficient discharge data points
+00872.csv,B0043,Insufficient discharge data points
+00876.csv,B0043,Insufficient discharge data points
+00878.csv,B0043,Insufficient discharge data points
+00880.csv,B0043,Insufficient discharge data points
+00882.csv,B0043,Insufficient discharge data points
+00884.csv,B0043,Insufficient discharge data points
+00888.csv,B0043,Insufficient discharge data points
+00890.csv,B0043,Insufficient discharge data points
+00892.csv,B0043,Insufficient discharge data points
+00894.csv,B0043,Insufficient discharge data points
+00896.csv,B0043,Insufficient discharge data points
+00900.csv,B0043,Insufficient discharge data points
+00904.csv,B0043,Insufficient discharge data points
+00906.csv,B0043,Insufficient discharge data points
+00908.csv,B0043,Insufficient discharge data points
+00910.csv,B0043,Insufficient discharge data points
+00912.csv,B0043,Insufficient discharge data points
+00916.csv,B0043,Insufficient discharge data points
+00918.csv,B0043,Insufficient discharge data points
+00920.csv,B0043,Insufficient discharge data points
+00922.csv,B0043,Insufficient discharge data points
+00924.csv,B0043,Insufficient discharge data points
+00928.csv,B0043,Insufficient discharge data points
+00930.csv,B0043,Insufficient discharge data points
+00932.csv,B0043,Insufficient discharge data points
+00934.csv,B0043,Insufficient discharge data points
+00936.csv,B0043,Insufficient discharge data points
+00940.csv,B0043,Insufficient discharge data points
+00942.csv,B0043,Insufficient discharge data points
+00944.csv,B0043,Insufficient discharge data points
+00946.csv,B0043,Insufficient discharge data points
+00948.csv,B0043,Insufficient discharge data points
+01015.csv,B0032,Validation failed: SOC range (0.056 to 1.000)
+01017.csv,B0032,Validation failed: SOC range (0.065 to 1.000)
+01019.csv,B0032,Validation failed: SOC range (0.070 to 1.000)
+01021.csv,B0032,Validation failed: SOC range (0.076 to 1.000)
+01025.csv,B0032,Validation failed: SOC range (0.081 to 1.000)
+01027.csv,B0032,Validation failed: SOC range (0.081 to 1.000)
+01029.csv,B0032,Validation failed: SOC range (0.088 to 1.000)
+01031.csv,B0032,Validation failed: SOC range (0.094 to 1.000)
+01037.csv,B0032,Validation failed: SOC range (0.095 to 1.000)
+01109.csv,B0039,Validation failed: Low correlation (0.663)
+01356.csv,B0029,Validation failed: SOC range (0.059 to 1.000)
+01358.csv,B0029,Validation failed: SOC range (0.069 to 1.000)
+01360.csv,B0029,Validation failed: SOC range (0.074 to 1.000)
+01362.csv,B0029,Validation failed: SOC range (0.080 to 1.000)
+01366.csv,B0029,Validation failed: SOC range (0.073 to 1.000)
+01368.csv,B0029,Validation failed: SOC range (0.080 to 1.000)
+01370.csv,B0029,Validation failed: SOC range (0.086 to 1.000)
+01372.csv,B0029,Validation failed: SOC range (0.093 to 1.000)
+01374.csv,B0029,Validation failed: SOC range (0.098 to 1.000)
+01378.csv,B0029,Validation failed: SOC range (0.088 to 1.000)
+01380.csv,B0029,Validation failed: SOC range (0.096 to 1.000)
+01390.csv,B0029,Validation failed: SOC range (0.096 to 1.000)
+01453.csv,B0028,Validation failed: SOC range (-0.801 to 1.000)
+01455.csv,B0028,Validation failed: SOC range (-0.798 to 1.000)
+01457.csv,B0028,Validation failed: SOC range (-0.793 to 1.000)
+01459.csv,B0028,Validation failed: SOC range (-0.788 to 1.000)
+01461.csv,B0028,Validation failed: SOC range (-0.788 to 1.000)
+01465.csv,B0028,Validation failed: SOC range (-0.771 to 1.000)
+01469.csv,B0028,Validation failed: SOC range (-0.788 to 1.000)
+01472.csv,B0028,Validation failed: SOC range (-0.786 to 1.000)
+01474.csv,B0028,Validation failed: SOC range (-0.782 to 1.000)
+01476.csv,B0028,Validation failed: SOC range (-0.782 to 1.000)
+01480.csv,B0028,Validation failed: SOC range (-0.777 to 1.000)
+01484.csv,B0028,Validation failed: SOC range (-0.781 to 1.000)
+01486.csv,B0028,Validation failed: SOC range (-0.773 to 1.000)
+01488.csv,B0028,Validation failed: SOC range (-0.774 to 1.000)
+01490.csv,B0028,Validation failed: SOC range (-0.769 to 1.000)
+01492.csv,B0028,Validation failed: SOC range (-0.765 to 1.000)
+01496.csv,B0028,Validation failed: SOC range (-0.737 to 1.000)
+01500.csv,B0028,Validation failed: SOC range (-0.761 to 1.000)
+01502.csv,B0028,Validation failed: SOC range (-0.757 to 1.000)
+01504.csv,B0028,Validation failed: SOC range (-0.754 to 1.000)
+01506.csv,B0028,Validation failed: SOC range (-0.748 to 1.000)
+01508.csv,B0028,Validation failed: SOC range (-0.748 to 1.000)
+01515.csv,B0028,Validation failed: SOC range (-0.756 to 1.000)
+01517.csv,B0028,Validation failed: SOC range (-0.744 to 1.000)
+01519.csv,B0028,Validation failed: SOC range (-0.737 to 1.000)
+01521.csv,B0028,Validation failed: SOC range (-0.732 to 1.000)
+01523.csv,B0028,Validation failed: SOC range (-0.732 to 1.000)
+01527.csv,B0028,Validation failed: SOC range (-0.713 to 1.000)
+01651.csv,B0042,Validation failed: Low correlation (0.519)
+01653.csv,B0042,Validation failed: Low correlation (0.671)
+01663.csv,B0042,Validation failed: Low correlation (0.676)
+01683.csv,B0042,Validation failed: Low correlation (0.690)
+01685.csv,B0042,Validation failed: Low correlation (0.463)
+01687.csv,B0042,Validation failed: Low correlation (0.522)
+01689.csv,B0042,Validation failed: Low correlation (0.487)
+01693.csv,B0042,Validation failed: Low correlation (0.648)
+01697.csv,B0042,Validation failed: Low correlation (0.669)
+01701.csv,B0042,Validation failed: Low correlation (0.435)
+01703.csv,B0042,Validation failed: Low correlation (0.625)
+01709.csv,B0042,Validation failed: Low correlation (0.648)
+01713.csv,B0042,Validation failed: Low correlation (0.684)
+01715.csv,B0042,Validation failed: Low correlation (0.619)
+01717.csv,B0042,Validation failed: Low correlation (0.670)
+01721.csv,B0042,Validation failed: Low correlation (0.655)
+01725.csv,B0042,Validation failed: Low correlation (0.621)
+01727.csv,B0042,Validation failed: Low correlation (0.328)
+01729.csv,B0042,Insufficient discharge data points
+01733.csv,B0042,Insufficient discharge data points
+01735.csv,B0042,Insufficient discharge data points
+01737.csv,B0042,Insufficient discharge data points
+01739.csv,B0042,Insufficient discharge data points
+01741.csv,B0042,Insufficient discharge data points
+01865.csv,B0034,Validation failed: Low correlation (0.492)
+01917.csv,B0034,Validation failed: SOC range (0.039 to 1.000)
+01981.csv,B0034,Validation failed: Low correlation (0.521)
+02083.csv,B0034,Validation failed: SOC range (0.084 to 1.000)
+02329.csv,B0038,Validation failed: SOC range (0.100 to 1.000)
+02331.csv,B0038,Validation failed: SOC range (0.099 to 1.000)
+02335.csv,B0038,Validation failed: SOC range (0.099 to 1.000)
+02431.csv,B0033,Validation failed: SOC range (0.085 to 1.000)
+02525.csv,B0033,Validation failed: SOC range (0.015 to 1.000)
+02691.csv,B0033,Validation failed: SOC range (0.054 to 1.000)
+02773.csv,B0033,Validation failed: Low correlation (0.505)
+02775.csv,B0033,Validation failed: Low correlation (0.647)
+02823.csv,B0033,Validation failed: Low correlation (0.689)
+02902.csv,B0030,Validation failed: SOC range (0.096 to 1.000)
+02996.csv,B0041,Insufficient discharge data points
+02999.csv,B0041,Insufficient discharge data points
+03001.csv,B0041,Insufficient discharge data points
+03003.csv,B0041,Insufficient discharge data points
+03005.csv,B0041,Insufficient discharge data points
+03007.csv,B0041,Insufficient discharge data points
+03011.csv,B0041,Insufficient discharge data points
+03013.csv,B0041,Insufficient discharge data points
+03015.csv,B0041,Insufficient discharge data points
+03017.csv,B0041,Insufficient discharge data points
+03019.csv,B0041,Insufficient discharge data points
+03023.csv,B0041,Insufficient discharge data points
+03025.csv,B0041,Insufficient discharge data points
+03027.csv,B0041,Insufficient discharge data points
+03029.csv,B0041,Insufficient discharge data points
+03031.csv,B0041,Insufficient discharge data points
+03035.csv,B0041,Insufficient discharge data points
+03037.csv,B0041,Insufficient discharge data points
+03039.csv,B0041,Insufficient discharge data points
+03041.csv,B0041,Insufficient discharge data points
+03043.csv,B0041,Insufficient discharge data points
+03047.csv,B0041,Insufficient discharge data points
+03051.csv,B0041,Insufficient discharge data points
+03053.csv,B0041,Insufficient discharge data points
+03055.csv,B0041,Insufficient discharge data points
+03057.csv,B0041,Insufficient discharge data points
+03059.csv,B0041,Insufficient discharge data points
+03063.csv,B0041,Insufficient discharge data points
+03065.csv,B0041,Insufficient discharge data points
+03067.csv,B0041,Insufficient discharge data points
+03069.csv,B0041,Insufficient discharge data points
+03071.csv,B0041,Insufficient discharge data points
+03075.csv,B0041,Insufficient discharge data points
+03077.csv,B0041,Insufficient discharge data points
+03079.csv,B0041,Insufficient discharge data points
+03081.csv,B0041,Insufficient discharge data points
+03083.csv,B0041,Insufficient discharge data points
+03087.csv,B0041,Insufficient discharge data points
+03089.csv,B0041,Insufficient discharge data points
+03091.csv,B0041,Insufficient discharge data points
+03093.csv,B0041,Insufficient discharge data points
+03095.csv,B0041,Insufficient discharge data points
+03162.csv,B0027,Validation failed: SOC range (-0.851 to 1.000)
+03164.csv,B0027,Validation failed: SOC range (-0.853 to 1.000)
+03166.csv,B0027,Validation failed: SOC range (-0.840 to 1.000)
+03168.csv,B0027,Validation failed: SOC range (-0.842 to 1.000)
+03170.csv,B0027,Validation failed: SOC range (-0.841 to 1.000)
+03174.csv,B0027,Validation failed: SOC range (-0.823 to 1.000)
+03178.csv,B0027,Validation failed: SOC range (-0.857 to 1.000)
+03181.csv,B0027,Validation failed: SOC range (-0.848 to 1.000)
+03183.csv,B0027,Validation failed: SOC range (-0.846 to 1.000)
+03185.csv,B0027,Validation failed: SOC range (-0.848 to 1.000)
+03189.csv,B0027,Validation failed: SOC range (-0.843 to 1.000)
+03193.csv,B0027,Validation failed: SOC range (-0.839 to 1.000)
+03195.csv,B0027,Validation failed: SOC range (-0.838 to 1.000)
+03197.csv,B0027,Validation failed: SOC range (-0.836 to 1.000)
+03199.csv,B0027,Validation failed: SOC range (-0.842 to 1.000)
+03201.csv,B0027,Validation failed: SOC range (-0.839 to 1.000)
+03205.csv,B0027,Validation failed: SOC range (-0.813 to 1.000)
+03209.csv,B0027,Validation failed: SOC range (-0.846 to 1.000)
+03211.csv,B0027,Validation failed: SOC range (-0.840 to 1.000)
+03213.csv,B0027,Validation failed: SOC range (-0.837 to 1.000)
+03215.csv,B0027,Validation failed: SOC range (-0.834 to 1.000)
+03217.csv,B0027,Validation failed: SOC range (-0.827 to 1.000)
+03224.csv,B0027,Validation failed: SOC range (-0.828 to 1.000)
+03226.csv,B0027,Validation failed: SOC range (-0.823 to 1.000)
+03228.csv,B0027,Validation failed: SOC range (-0.817 to 1.000)
+03230.csv,B0027,Validation failed: SOC range (-0.812 to 1.000)
+03232.csv,B0027,Validation failed: SOC range (-0.819 to 1.000)
+03236.csv,B0027,Validation failed: SOC range (-0.802 to 1.000)
+03341.csv,B0044,Insufficient discharge data points
+03345.csv,B0044,Insufficient discharge data points
+03347.csv,B0044,Insufficient discharge data points
+03349.csv,B0044,Insufficient discharge data points
+03351.csv,B0044,Insufficient discharge data points
+03354.csv,B0044,Insufficient discharge data points
+03356.csv,B0044,Insufficient discharge data points
+03358.csv,B0044,Insufficient discharge data points
+03360.csv,B0044,Insufficient discharge data points
+03362.csv,B0044,Insufficient discharge data points
+03366.csv,B0044,Insufficient discharge data points
+03368.csv,B0044,Insufficient discharge data points
+03370.csv,B0044,Insufficient discharge data points
+03372.csv,B0044,Insufficient discharge data points
+03374.csv,B0044,Insufficient discharge data points
+03378.csv,B0044,Insufficient discharge data points
+03380.csv,B0044,Insufficient discharge data points
+03382.csv,B0044,Insufficient discharge data points
+03384.csv,B0044,Insufficient discharge data points
+03386.csv,B0044,Insufficient discharge data points
+03390.csv,B0044,Insufficient discharge data points
+03392.csv,B0044,Insufficient discharge data points
+03394.csv,B0044,Insufficient discharge data points
+03396.csv,B0044,Insufficient discharge data points
+03398.csv,B0044,Insufficient discharge data points
+03402.csv,B0044,Insufficient discharge data points
+03406.csv,B0044,Insufficient discharge data points
+03408.csv,B0044,Insufficient discharge data points
+03410.csv,B0044,Insufficient discharge data points
+03412.csv,B0044,Insufficient discharge data points
+03414.csv,B0044,Insufficient discharge data points
+03418.csv,B0044,Insufficient discharge data points
+03420.csv,B0044,Insufficient discharge data points
+03422.csv,B0044,Insufficient discharge data points
+03424.csv,B0044,Insufficient discharge data points
+03426.csv,B0044,Insufficient discharge data points
+03430.csv,B0044,Insufficient discharge data points
+03432.csv,B0044,Insufficient discharge data points
+03434.csv,B0044,Insufficient discharge data points
+03436.csv,B0044,Insufficient discharge data points
+03438.csv,B0044,Insufficient discharge data points
+03442.csv,B0044,Insufficient discharge data points
+03444.csv,B0044,Insufficient discharge data points
+03446.csv,B0044,Insufficient discharge data points
+03448.csv,B0044,Insufficient discharge data points
+03450.csv,B0044,Insufficient discharge data points
+03520.csv,B0036,Validation failed: SOC range (0.099 to 1.000)
+03522.csv,B0036,Validation failed: SOC range (0.099 to 1.000)
+03570.csv,B0036,Validation failed: SOC range (0.098 to 1.000)
+03626.csv,B0036,Validation failed: SOC range (0.009 to 1.000)
+03792.csv,B0036,Validation failed: SOC range (-0.220 to 1.000)
+04003.csv,B0025,Validation failed: SOC range (-0.886 to 1.000)
+04005.csv,B0025,Validation failed: SOC range (-0.888 to 1.000)
+04007.csv,B0025,Validation failed: SOC range (-0.886 to 1.000)
+04009.csv,B0025,Validation failed: SOC range (-0.877 to 1.000)
+04011.csv,B0025,Validation failed: SOC range (-0.876 to 1.000)
+04015.csv,B0025,Validation failed: SOC range (-0.854 to 1.000)
+04019.csv,B0025,Validation failed: SOC range (-0.879 to 1.000)
+04022.csv,B0025,Validation failed: SOC range (-0.871 to 1.000)
+04024.csv,B0025,Validation failed: SOC range (-0.858 to 1.000)
+04026.csv,B0025,Validation failed: SOC range (-0.857 to 1.000)
+04030.csv,B0025,Validation failed: SOC range (-0.854 to 1.000)
+04034.csv,B0025,Validation failed: SOC range (-0.851 to 1.000)
+04036.csv,B0025,Validation failed: SOC range (-0.842 to 1.000)
+04038.csv,B0025,Validation failed: SOC range (-0.849 to 1.000)
+04040.csv,B0025,Validation failed: SOC range (-0.834 to 1.000)
+04042.csv,B0025,Validation failed: SOC range (-0.838 to 1.000)
+04046.csv,B0025,Validation failed: SOC range (-0.811 to 1.000)
+04050.csv,B0025,Validation failed: SOC range (-0.843 to 1.000)
+04052.csv,B0025,Validation failed: SOC range (-0.837 to 1.000)
+04054.csv,B0025,Validation failed: SOC range (-0.834 to 1.000)
+04056.csv,B0025,Validation failed: SOC range (-0.830 to 1.000)
+04058.csv,B0025,Validation failed: SOC range (-0.824 to 1.000)
+04065.csv,B0025,Validation failed: SOC range (-0.826 to 1.000)
+04067.csv,B0025,Validation failed: SOC range (-0.820 to 1.000)
+04069.csv,B0025,Validation failed: SOC range (-0.814 to 1.000)
+04071.csv,B0025,Validation failed: SOC range (-0.810 to 1.000)
+04073.csv,B0025,Validation failed: SOC range (-0.805 to 1.000)
+04077.csv,B0025,Validation failed: SOC range (-0.787 to 1.000)
+04083.csv,B0026,Validation failed: SOC range (-0.852 to 1.000)
+04085.csv,B0026,Validation failed: SOC range (-0.854 to 1.000)
+04087.csv,B0026,Validation failed: SOC range (-0.841 to 1.000)
+04089.csv,B0026,Validation failed: SOC range (-0.843 to 1.000)
+04091.csv,B0026,Validation failed: SOC range (-0.842 to 1.000)
+04095.csv,B0026,Validation failed: SOC range (-0.415 to 1.000)
+04099.csv,B0026,Validation failed: SOC range (-0.845 to 1.000)
+04102.csv,B0026,Validation failed: SOC range (-0.837 to 1.000)
+04104.csv,B0026,Validation failed: SOC range (-0.834 to 1.000)
+04106.csv,B0026,Validation failed: SOC range (-0.822 to 1.000)
+04110.csv,B0026,Validation failed: SOC range (-0.747 to 1.000)
+04114.csv,B0026,Validation failed: SOC range (-0.827 to 1.000)
+04116.csv,B0026,Validation failed: SOC range (-0.824 to 1.000)
+04118.csv,B0026,Validation failed: SOC range (-0.823 to 1.000)
+04120.csv,B0026,Validation failed: SOC range (-0.817 to 1.000)
+04122.csv,B0026,Validation failed: SOC range (-0.817 to 1.000)
+04126.csv,B0026,Validation failed: SOC range (-0.700 to 1.000)
+04130.csv,B0026,Validation failed: SOC range (-0.819 to 1.000)
+04132.csv,B0026,Validation failed: SOC range (-0.826 to 1.000)
+04134.csv,B0026,Validation failed: SOC range (-0.823 to 1.000)
+04136.csv,B0026,Validation failed: SOC range (-0.819 to 1.000)
+04138.csv,B0026,Validation failed: SOC range (-0.801 to 1.000)
+04145.csv,B0026,Validation failed: SOC range (-0.814 to 1.000)
+04147.csv,B0026,Validation failed: SOC range (-0.809 to 1.000)
+04149.csv,B0026,Validation failed: SOC range (-0.802 to 1.000)
+04151.csv,B0026,Validation failed: SOC range (-0.791 to 1.000)
+04153.csv,B0026,Validation failed: SOC range (-0.791 to 1.000)
+04157.csv,B0026,Validation failed: SOC range (-0.788 to 1.000)
+04163.csv,B0031,Validation failed: SOC range (0.081 to 1.000)
+04165.csv,B0031,Validation failed: SOC range (0.085 to 1.000)
+04167.csv,B0031,Validation failed: SOC range (0.090 to 1.000)
+04169.csv,B0031,Validation failed: SOC range (0.091 to 1.000)
+04175.csv,B0031,Validation failed: SOC range (0.090 to 1.000)
+04177.csv,B0031,Validation failed: SOC range (0.097 to 1.000)
+04179.csv,B0031,Validation failed: SOC range (0.098 to 1.000)
+04185.csv,B0031,Validation failed: SOC range (0.099 to 1.000)
+04267.csv,B0049,Validation failed: SOC range (-0.271 to 1.000)
+04329.csv,B0050,Insufficient discharge data points
+04333.csv,B0050,Validation failed: SOC range (-0.512 to 1.000)
+04361.csv,B0050,Validation failed: Low correlation (0.698)
+04365.csv,B0050,Validation failed: Low correlation (0.663)
+04371.csv,B0050,Insufficient discharge data points
+04373.csv,B0050,Insufficient discharge data points
+04375.csv,B0050,Insufficient discharge data points
+04377.csv,B0050,Insufficient discharge data points
+04391.csv,B0052,Insufficient discharge data points
+04395.csv,B0052,Insufficient discharge data points
+04397.csv,B0052,Insufficient discharge data points
+04399.csv,B0052,Insufficient discharge data points
+04401.csv,B0052,Insufficient discharge data points
+04403.csv,B0052,Insufficient discharge data points
+04407.csv,B0052,Insufficient discharge data points
+04409.csv,B0052,Insufficient discharge data points
+04411.csv,B0052,Insufficient discharge data points
+04413.csv,B0052,Insufficient discharge data points
+04415.csv,B0052,Insufficient discharge data points
+04419.csv,B0052,Insufficient discharge data points
+04421.csv,B0052,Insufficient discharge data points
+04423.csv,B0052,Insufficient discharge data points
+04425.csv,B0052,Insufficient discharge data points
+04427.csv,B0052,Insufficient discharge data points
+04431.csv,B0052,Insufficient discharge data points
+04433.csv,B0052,Insufficient discharge data points
+04435.csv,B0052,Insufficient discharge data points
+04437.csv,B0052,Insufficient discharge data points
+04439.csv,B0052,Insufficient discharge data points
+04453.csv,B0051,Validation failed: SOC range (-0.202 to 1.000)
+04506.csv,B0006,Validation failed: SOC range (-0.021 to 1.000)
+04508.csv,B0006,Validation failed: SOC range (-0.016 to 1.000)
+04510.csv,B0006,Validation failed: SOC range (-0.010 to 1.000)
+04512.csv,B0006,Validation failed: SOC range (-0.004 to 1.000)
+04514.csv,B0006,Validation failed: SOC range (-0.003 to 1.000)
+04516.csv,B0006,Validation failed: SOC range (-0.010 to 1.000)
+04518.csv,B0006,Validation failed: SOC range (-0.010 to 1.000)
+04520.csv,B0006,Validation failed: SOC range (0.013 to 1.000)
+04522.csv,B0006,Validation failed: SOC range (0.019 to 1.000)
+04524.csv,B0006,Validation failed: SOC range (0.018 to 1.000)
+04526.csv,B0006,Validation failed: SOC range (0.024 to 1.000)
+04529.csv,B0006,Validation failed: SOC range (0.035 to 1.000)
+04531.csv,B0006,Validation failed: SOC range (0.041 to 1.000)
+04533.csv,B0006,Validation failed: SOC range (0.041 to 1.000)
+04535.csv,B0006,Validation failed: SOC range (0.047 to 1.000)
+04537.csv,B0006,Validation failed: SOC range (0.052 to 1.000)
+04539.csv,B0006,Validation failed: SOC range (0.058 to 1.000)
+04541.csv,B0006,Validation failed: SOC range (0.063 to 1.000)
+04543.csv,B0006,Validation failed: SOC range (0.069 to 1.000)
+04546.csv,B0006,Validation failed: SOC range (0.007 to 1.000)
+04550.csv,B0006,Validation failed: SOC range (0.018 to 1.000)
+04554.csv,B0006,Validation failed: SOC range (0.024 to 1.000)
+04558.csv,B0006,Validation failed: SOC range (0.035 to 1.000)
+04562.csv,B0006,Validation failed: SOC range (0.030 to 1.000)
+04566.csv,B0006,Validation failed: SOC range (0.052 to 1.000)
+04570.csv,B0006,Validation failed: SOC range (0.058 to 1.000)
+04574.csv,B0006,Validation failed: SOC range (0.063 to 1.000)
+04578.csv,B0006,Validation failed: SOC range (0.069 to 1.000)
+04582.csv,B0006,Validation failed: SOC range (0.080 to 1.000)
+04586.csv,B0006,Validation failed: SOC range (0.068 to 1.000)
+04590.csv,B0006,Validation failed: SOC range (0.036 to 1.000)
+04594.csv,B0006,Validation failed: SOC range (0.058 to 1.000)
+04598.csv,B0006,Validation failed: SOC range (0.068 to 1.000)
+04602.csv,B0006,Validation failed: SOC range (0.076 to 1.000)
+04606.csv,B0006,Validation failed: SOC range (0.087 to 1.000)
+04610.csv,B0006,Validation failed: SOC range (0.089 to 1.000)
+04614.csv,B0006,Validation failed: SOC range (0.098 to 1.000)
+04654.csv,B0006,Validation failed: SOC range (0.084 to 1.000)
+04658.csv,B0006,Validation failed: SOC range (0.092 to 1.000)
+05122.csv,B0005,Validation failed: SOC range (0.074 to 1.000)
+05124.csv,B0005,Validation failed: SOC range (0.080 to 1.000)
+05126.csv,B0005,Validation failed: SOC range (0.085 to 1.000)
+05128.csv,B0005,Validation failed: SOC range (0.085 to 1.000)
+05130.csv,B0005,Validation failed: SOC range (0.085 to 1.000)
+05132.csv,B0005,Validation failed: SOC range (0.085 to 1.000)
+05134.csv,B0005,Validation failed: SOC range (0.085 to 1.000)
+05136.csv,B0005,Validation failed: SOC range (0.090 to 1.000)
+05138.csv,B0005,Validation failed: SOC range (0.090 to 1.000)
+05140.csv,B0005,Validation failed: SOC range (0.090 to 1.000)
+05142.csv,B0005,Validation failed: SOC range (0.090 to 1.000)
+05145.csv,B0005,Validation failed: SOC range (0.096 to 1.000)
+05147.csv,B0005,Validation failed: SOC range (0.096 to 1.000)
+05149.csv,B0005,Validation failed: SOC range (0.096 to 1.000)
+05162.csv,B0005,Validation failed: SOC range (0.079 to 1.000)
+05166.csv,B0005,Validation failed: SOC range (0.079 to 1.000)
+05170.csv,B0005,Validation failed: SOC range (0.085 to 1.000)
+05174.csv,B0005,Validation failed: SOC range (0.090 to 1.000)
+05178.csv,B0005,Validation failed: SOC range (0.090 to 1.000)
+05182.csv,B0005,Validation failed: SOC range (0.090 to 1.000)
+05186.csv,B0005,Validation failed: SOC range (0.096 to 1.000)
+05190.csv,B0005,Validation failed: SOC range (0.095 to 1.000)
+05194.csv,B0005,Validation failed: SOC range (0.096 to 1.000)
+05206.csv,B0005,Validation failed: SOC range (0.076 to 1.000)
+05210.csv,B0005,Validation failed: SOC range (0.086 to 1.000)
+05214.csv,B0005,Validation failed: SOC range (0.091 to 1.000)
+05218.csv,B0005,Validation failed: SOC range (0.097 to 1.000)
+05222.csv,B0005,Validation failed: SOC range (0.099 to 1.000)
+05738.csv,B0007,Validation failed: SOC range (0.046 to 1.000)
+05740.csv,B0007,Validation failed: SOC range (0.051 to 1.000)
+05742.csv,B0007,Validation failed: SOC range (0.051 to 1.000)
+05744.csv,B0007,Validation failed: SOC range (0.051 to 1.000)
+05746.csv,B0007,Validation failed: SOC range (0.052 to 1.000)
+05748.csv,B0007,Validation failed: SOC range (0.057 to 1.000)
+05750.csv,B0007,Validation failed: SOC range (0.057 to 1.000)
+05752.csv,B0007,Validation failed: SOC range (0.056 to 1.000)
+05754.csv,B0007,Validation failed: SOC range (0.057 to 1.000)
+05756.csv,B0007,Validation failed: SOC range (0.056 to 1.000)
+05758.csv,B0007,Validation failed: SOC range (0.057 to 1.000)
+05761.csv,B0007,Validation failed: SOC range (0.062 to 1.000)
+05763.csv,B0007,Validation failed: SOC range (0.062 to 1.000)
+05765.csv,B0007,Validation failed: SOC range (0.062 to 1.000)
+05767.csv,B0007,Validation failed: SOC range (0.067 to 1.000)
+05769.csv,B0007,Validation failed: SOC range (0.068 to 1.000)
+05771.csv,B0007,Validation failed: SOC range (0.068 to 1.000)
+05773.csv,B0007,Validation failed: SOC range (0.073 to 1.000)
+05775.csv,B0007,Validation failed: SOC range (0.073 to 1.000)
+05778.csv,B0007,Validation failed: SOC range (0.051 to 1.000)
+05782.csv,B0007,Validation failed: SOC range (0.051 to 1.000)
+05786.csv,B0007,Validation failed: SOC range (0.057 to 1.000)
+05790.csv,B0007,Validation failed: SOC range (0.056 to 1.000)
+05794.csv,B0007,Validation failed: SOC range (0.056 to 1.000)
+05798.csv,B0007,Validation failed: SOC range (0.062 to 1.000)
+05802.csv,B0007,Validation failed: SOC range (0.062 to 1.000)
+05806.csv,B0007,Validation failed: SOC range (0.067 to 1.000)
+05810.csv,B0007,Validation failed: SOC range (0.067 to 1.000)
+05814.csv,B0007,Validation failed: SOC range (0.067 to 1.000)
+05818.csv,B0007,Validation failed: SOC range (0.072 to 1.000)
+05822.csv,B0007,Validation failed: SOC range (0.052 to 1.000)
+05826.csv,B0007,Validation failed: SOC range (0.062 to 1.000)
+05830.csv,B0007,Validation failed: SOC range (0.067 to 1.000)
+05834.csv,B0007,Validation failed: SOC range (0.070 to 1.000)
+05838.csv,B0007,Validation failed: SOC range (0.075 to 1.000)
+05842.csv,B0007,Validation failed: SOC range (0.075 to 1.000)
+05846.csv,B0007,Validation failed: SOC range (0.077 to 1.000)
+05850.csv,B0007,Validation failed: SOC range (0.083 to 1.000)
+05854.csv,B0007,Validation failed: SOC range (0.085 to 1.000)
+05858.csv,B0007,Validation failed: SOC range (0.088 to 1.000)
+05862.csv,B0007,Validation failed: SOC range (0.088 to 1.000)
+05866.csv,B0007,Validation failed: SOC range (0.090 to 1.000)
+05870.csv,B0007,Validation failed: SOC range (0.090 to 1.000)
+05872.csv,B0007,Validation failed: SOC range (0.090 to 1.000)
+05876.csv,B0007,Validation failed: SOC range (0.095 to 1.000)
+05886.csv,B0007,Validation failed: SOC range (0.086 to 1.000)
+05890.csv,B0007,Validation failed: SOC range (0.086 to 1.000)
+05894.csv,B0007,Validation failed: SOC range (0.093 to 1.000)
+05898.csv,B0007,Validation failed: SOC range (0.098 to 1.000)
+06355.csv,B0018,Validation failed: SOC range (0.069 to 1.000)
+06359.csv,B0018,Validation failed: SOC range (0.074 to 1.000)
+06363.csv,B0018,Validation failed: SOC range (0.076 to 1.000)
+06367.csv,B0018,Validation failed: SOC range (0.081 to 1.000)
+06370.csv,B0018,Validation failed: SOC range (0.080 to 1.000)
+06372.csv,B0018,Validation failed: SOC range (0.082 to 1.000)
+06374.csv,B0018,Validation failed: SOC range (0.088 to 1.000)
+06376.csv,B0018,Validation failed: SOC range (0.091 to 1.000)
+06379.csv,B0018,Validation failed: SOC range (0.094 to 1.000)
+06382.csv,B0018,Validation failed: SOC range (0.084 to 1.000)
+06384.csv,B0018,Validation failed: SOC range (0.090 to 1.000)
+06386.csv,B0018,Validation failed: SOC range (0.096 to 1.000)
+06808.csv,B0053,Insufficient discharge data points
+07061.csv,B0054,Insufficient discharge data points
