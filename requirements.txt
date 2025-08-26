@@ -124,6 +124,7 @@ terminado==0.18.1
 threadpoolctl==3.6.0
 tinycss2==1.4.0
 tornado==6.5.2
+tqdm==4.67.1
 traitlets==5.14.3
 types-python-dateutil==2.9.0.20250822
 typing_extensions==4.14.1
@@ -139,3 +140,4 @@ wheel==0.45.1
 widgetsnbextension==4.0.14
 wrapt==1.17.3
 xgboost==3.0.4
+tqdm-4.67.1
