@@ -1,3 +1,6 @@
+# Processed data files
+processed_data/
+
 # Virtual environments
 venv/
 env/
