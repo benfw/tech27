@@ -498,6 +498,178 @@ def prepare_sequence_ml_datasets(data_splits, sequence_length=30, step=5, target
     return sequences
 
 
+def filter_features(X_train_full, X_val_full, X_test_full, 
+                   all_feature_cols, desired_features,
+                   y_train=None, y_val=None, y_test=None,
+                   verbose=True):
+    """
+    Filter datasets to use only specified features.
+    
+    This function handles the common pattern of filtering features across
+    training, validation, and test sets, supporting both 2D and 3D data.
+    
+    Parameters:
+    -----------
+    X_train_full : np.ndarray or pd.DataFrame
+        Full training features (2D: samples x features, or 3D: samples x timesteps x features)
+    X_val_full : np.ndarray or pd.DataFrame
+        Full validation features
+    X_test_full : np.ndarray or pd.DataFrame
+        Full test features
+    all_feature_cols : list
+        List of all feature names in the dataset
+    desired_features : list
+        List of desired feature names to keep
+    y_train, y_val, y_test : np.ndarray, optional
+        Target arrays (passed through unchanged)
+    verbose : bool
+        Whether to print filtering summary
+    
+    Returns:
+    --------
+    dict
+        Dictionary containing:
+        - X_train, X_val, X_test: Filtered feature arrays
+        - y_train, y_val, y_test: Target arrays (if provided)
+        - available_features: List of features that were found and used
+        - missing_features: List of requested features not in dataset
+        - excluded_features: List of features that were excluded
+        - feature_indices: Indices of selected features
+    """
+    
+    # Find which features from desired list are actually available
+    available_features = [f for f in desired_features if f in all_feature_cols]
+    missing_features = [f for f in desired_features if f not in all_feature_cols]
+    excluded_features = [f for f in all_feature_cols if f not in available_features]
+    
+    # Get indices of available features
+    feature_indices = [all_feature_cols.index(f) for f in available_features]
+    
+    # Determine data dimensionality
+    is_3d = len(X_train_full.shape) == 3
+    
+    # Filter the datasets
+    if hasattr(X_train_full, 'iloc'):  # It's a DataFrame (2D only)
+        X_train = X_train_full[available_features].values
+        X_val = X_val_full[available_features].values
+        X_test = X_test_full[available_features].values
+    else:  # It's a numpy array
+        if is_3d:
+            # For 3D data: (samples, timesteps, features)
+            X_train = X_train_full[:, :, feature_indices]
+            X_val = X_val_full[:, :, feature_indices]
+            X_test = X_test_full[:, :, feature_indices]
+        else:
+            # For 2D data: (samples, features)
+            X_train = X_train_full[:, feature_indices]
+            X_val = X_val_full[:, feature_indices]
+            X_test = X_test_full[:, feature_indices]
+    
+    if verbose:
+        print(f"\nFeature Selection Summary:")
+        print(f"   Total features in dataset: {len(all_feature_cols)}")
+        print(f"   Features requested: {len(desired_features)}")
+        print(f"   Features available: {len(available_features)}")
+        print(f"   Features excluded: {len(excluded_features)}")
+        
+        if missing_features:
+            print(f"\nMissing features (not in dataset):")
+            for feat in missing_features:
+                print(f"   - {feat}")
+        
+        print(f"\nFiltered dataset shapes:")
+        print(f"   Training:   X={X_train.shape}", end="")
+        if y_train is not None:
+            print(f", y={y_train.shape}")
+        else:
+            print()
+        print(f"   Validation: X={X_val.shape}", end="")
+        if y_val is not None:
+            print(f", y={y_val.shape}")
+        else:
+            print()
+        print(f"   Test:       X={X_test.shape}", end="")
+        if y_test is not None:
+            print(f", y={y_test.shape}")
+        else:
+            print()
+        
+        if is_3d:
+            print(f"\nFeature reduction: {X_train_full.shape[2]} → {X_train.shape[2]} features")
+            print(f"Sequence length: {X_train.shape[1]} timesteps")
+        else:
+            print(f"\nFeature reduction: {X_train_full.shape[1]} → {X_train.shape[1]} features")
+        
+        print(f"\nUsing {len(available_features)} features:")
+        for i, feat in enumerate(available_features, 1):
+            print(f"{i:3d}. {feat}")
+    
+    # Build return dictionary
+    result = {
+        'X_train': X_train,
+        'X_val': X_val,
+        'X_test': X_test,
+        'available_features': available_features,
+        'missing_features': missing_features,
+        'excluded_features': excluded_features,
+        'feature_indices': feature_indices
+    }
+    
+    # Add targets if provided
+    if y_train is not None:
+        result['y_train'] = y_train
+    if y_val is not None:
+        result['y_val'] = y_val
+    if y_test is not None:
+        result['y_test'] = y_test
+    
+    return result
+
+
+def get_realistic_features():
+    """
+    Get the standard list of realistic features for battery SOC estimation.
+    
+    These are features that can be realistically obtained from voltage,
+    current, and temperature measurements.
+    
+    Returns:
+    --------
+    list
+        List of realistic feature names
+    """
+    return [
+        # Direct measurements
+        'voltage', 'current', 'temperature',
+        'Current_load', 'Voltage_load',  # If we have load measurements
+        
+        # Physics-based calculations from V&I
+        'power',  # V * I
+        'abs_current',  # |I|
+        'voltage_current_ratio',  # V/I (related to resistance)
+        'energy',  # Cumulative V*I*dt
+        
+        # Time derivatives and changes
+        'voltage_change',  # dV/dt
+        'current_change',  # dI/dt
+        'power_change',  # dP/dt
+        'temperature_change',  # dT/dt
+        
+        # Rolling statistics
+        'voltage_rolling_mean_5', 'voltage_rolling_mean_10',
+        'voltage_rolling_std_5', 'voltage_rolling_std_10',
+        'current_rolling_mean_5', 'current_rolling_mean_10',
+        'current_rolling_std_5', 'current_rolling_std_10',
+        
+        # Lagged features (voltage and current only, not SOC)
+        'voltage_lag_1',
+        'current_lag_1',
+        
+        # Cumulative features (coulomb counting)
+        'cumulative_energy',  # ∫P dt
+    ]
+
+
 def save_datasets(ml_datasets, sequence_datasets=None, output_prefix="processed"):
     """
     Save processed datasets to pickle files.
