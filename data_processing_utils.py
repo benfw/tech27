@@ -1,9 +1,6 @@
 """
 Data Processing Utilities for Battery SOC Estimation
 Stanford TECH 27 Final Project
-
-Shared functions extracted from 02_data_cleaning.ipynb for use across notebooks.
-This replaces the old preprocessing_utils.py with corrected validation logic.
 """
 
 import pandas as pd
